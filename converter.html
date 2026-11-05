@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grams to Kilograms</title>
+</head>
+<body>
+
+<h2>Grams to Kilograms Converter</h2>
+
+<input type="number" id="grams" placeholder="Enter grams">
+
+<button onclick="convert()">Convert</button>
+
+<p id="result"></p>
+
+<script>
+function convert() {
+    let g = document.getElementById("grams").value;
+    let kg = g / 1000;
+
+    document.getElementById("result").innerHTML = kg + " kg";
+}
+</script>
+
+</body>
+</html>
