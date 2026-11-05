@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: lightblue;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.board button {
+    height: 80px;
+    font-size: 30px;
+    cursor: pointer;
+}
